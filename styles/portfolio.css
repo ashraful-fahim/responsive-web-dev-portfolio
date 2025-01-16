@@ -227,9 +227,25 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 
 /* Responsive Media Query */
 @media screen and (max-width:576px){
-    .skills-container, .resume-container, footer, .about-items{
+    .skills-container, 
+    .resume-container, 
+    footer, 
+    .about-items,
+    .banner{
         flex-direction: column;
     }
+    .header{
+        background-image: none;
+    }
+
+    .banner{
+        margin: 20px;
+    }
+
+    .banner-content{
+        width:100%;
+    }
+
     footer, .about{
         padding: 20px;
     }
