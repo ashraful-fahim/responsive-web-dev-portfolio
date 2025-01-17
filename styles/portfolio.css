@@ -226,6 +226,10 @@ footer{
     width: 50%;
 }
 
+.footer-column p{
+    padding-bottom: 50px;
+}
+
 footer input[type="text"], footer input[type="email"], footer textarea{
     width: 100%;
     height: 64px;
@@ -234,10 +238,6 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
-}
-
-.hide{
-    display: none;
 }
 
 /* Responsive Media Query */
